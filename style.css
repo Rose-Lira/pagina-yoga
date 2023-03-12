@@ -1,0 +1,35 @@
+/* no css irá referenciar os elementos criados no html que são
+as divisões, menus, etc e lembrar de sempre zerar o css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2E4CFF;
+    width: 100vw; /* vw quer dizer viewport vai pegar todo espaço possível */
+  /*height: 1014px; esse valor não vai ser aplicado porque pode tomar toda a página,
+  dessa forma pensando na responsividade, melhor deixar limitar organizamente  de acordo 
+  com a necessidade do texto */
+    padding: 60px;
+ }
+ /* para saber como monter, primeiro separar os locais por cores fortes para facilitar a identificação dos elementos dentro do header */
+
+ nav {
+    background-color: rgb(50, 183, 9);
+ }
+
+ .container {
+    display: flex; /* para deixar uma div ao lado da outra */
+    width: 100%;
+    background-color: red;
+}
+.area-texto {
+    width: 50%;
+    background-color:pink;
+}
+.area-image {
+    width: 50%;
+    background-color:aquamarine;
+}
